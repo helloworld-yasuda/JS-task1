@@ -71,5 +71,7 @@ height.style.height = "800px";
 
 const addbtn = document.getElementById("addBtn");
 addbtn.addEventListener("click",()=>{
-    container.innerHTML = "<div>子要素が追加されました!</div>";
+    const newDiv = document.createElement("div");
+    newDiv.textContent = "子要素が追加されました";
+    container.appendChild(newDiv);
 })
