@@ -12,7 +12,7 @@ const users = ["田中", "佐藤", "久保田", "鈴木", "河本"];
 
 const user = {
     id: 1,
-    name: `yourName`,
+    name: "yourName",
     age: 20
 };
 
