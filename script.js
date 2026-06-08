@@ -40,12 +40,14 @@ profile("山田太郎");
 const add = (a,b)=>{
     return a+b;
 }
-console.log(add(3,5));
+const addResult = add(3,5)
+console.log(addResult);
 
 const aplle = (text1,text2)=>{
     return text1 + text2;
 }
-console.log(aplle("赤い","リンゴ"));
+const addText = aplle("赤い","リンゴ")
+console.log(addText);
 
 const container = document.getElementById("container");
 
