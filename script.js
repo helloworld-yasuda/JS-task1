@@ -8,7 +8,7 @@ let x;
 
 const username = null;
 
-const users = ["田中", "佐藤", "久保田", "鈴木", "河本"];
+const users = ["田中", "佐藤", "久保田", "鈴木", "河本"];
 
 const user = {
     id: 1,
