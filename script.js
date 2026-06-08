@@ -51,11 +51,11 @@ const container = document.getElementById("container");
 
 const btn = document.querySelector("#myButton");
 
-const p = document.createElement("p");
+const newPTag = document.createElement("p");
 
-p.textContent = "pタグを追加しました";
+newPTag.textContent = "pタグを追加しました";
 
-container.appendChild(p);
+container.appendChild(newPTag);
 
 btn.addEventListener("click",()=>{
     console.log("click");
